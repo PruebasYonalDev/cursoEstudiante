@@ -70,25 +70,60 @@ public class Estudiante {
 
     public Curso getCurso1() {
 
+        int cod = 1;
+        String nom = "programacion";
+        int cred = 2;
+        String desp = "POO";
+
+        cursos = new Curso(cod, nom, cred, desp);
+
         return cursos;
     }
 
     public Curso getCurso2() {
+
+        int cod = 2;
+        String nom = "Bases de datos";
+        int cred = 3;
+        String desp = "Sql";
+
+        cursos = new Curso(cod, nom, cred, desp);
 
         return cursos;
     }
 
     public Curso getCurso3() {
 
+        int cod = 3;
+        String nom = "Oracle";
+        int cred = 5;
+        String desp = "Pl/Sql";
+
+        cursos = new Curso(cod, nom, cred, desp);
+
         return cursos;
     }
 
     public Curso getCurso4() {
 
+        int cod = 4;
+        String nom = "Angular";
+        int cred = 3;
+        String desp = "SPA";
+
+        cursos = new Curso(cod, nom, cred, desp);
+
         return cursos;
     }
 
     public Curso getCurso5() {
+
+        int cod = 5;
+        String nom = "Java";
+        int cred = 5;
+        String desp = "Maven";
+
+        cursos = new Curso(cod, nom, cred, desp);
 
         return cursos;
     }

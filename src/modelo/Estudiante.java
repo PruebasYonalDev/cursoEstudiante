@@ -8,6 +8,8 @@ public class Estudiante {
     private String nombre;
     private String apellido;
 
+    String[] estu1 = new String[3];
+
     Curso cursos;
 
     public int getCodigo() {
@@ -27,6 +29,14 @@ public class Estudiante {
         this.apellido = apellido;
         this.codigo = codigo;
 
+        estu1[0] = nombre;
+        estu1[1] = apellido;
+        estu1[2] = Integer.toString(codigo);
+
+        for (String e :
+                estu1) {
+            System.out.println(e);
+        }
 
     }
 
